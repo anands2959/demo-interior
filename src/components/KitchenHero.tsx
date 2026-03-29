@@ -27,7 +27,20 @@ export default function KitchenHero() {
         className="flex flex-col lg:flex-row w-full h-auto lg:h-[750px] overflow-hidden bg-[#1A1D21] text-white border-b border-white/5 shadow-2xl"
       >
         
-        {/* Left Focus Column */}
+        {/* Left Hero Image */}
+        <motion.div 
+          variants={item}
+          className="w-full lg:w-[60%] h-[500px] lg:h-full relative overflow-hidden"
+        >
+          <img 
+            src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2000&auto=format&fit=crop" 
+            className="w-full h-full object-cover scale-[1.05] transition-all duration-[2s]" 
+            alt="Chef's Kitchen" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-[#212529]/40 to-transparent pointer-events-none"></div>
+        </motion.div>
+
+        {/* Right Focus Column */}
         <motion.div 
           variants={item}
           className="w-full lg:w-[40%] bg-[#212529] p-12 lg:p-20 flex flex-col justify-between relative z-10"
@@ -61,21 +74,8 @@ export default function KitchenHero() {
           <div className="mt-16 flex items-center gap-10 opacity-30">
               <span className="text-[10px] font-black tracking-widest uppercase">01</span>
               <div className="w-full h-[1px] bg-white/10"></div>
-              <span className="text-[10px] font-black tracking-widest uppercase text-peach italic">2024</span>
+              <span className="text-[10px] font-black tracking-widest uppercase text-peach italic">2026</span>
           </div>
-        </motion.div>
-
-        {/* Right Hero Image */}
-        <motion.div 
-          variants={item}
-          className="w-full lg:w-[60%] h-[500px] lg:h-full relative overflow-hidden"
-        >
-          <img 
-            src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2000&auto=format&fit=crop" 
-            className="w-full h-full object-cover scale-[1.05] transition-all duration-[2s]" 
-            alt="Chef's Kitchen" 
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#212529]/40 to-transparent pointer-events-none"></div>
         </motion.div>
 
       </motion.div>

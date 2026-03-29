@@ -77,7 +77,7 @@ export default function BathroomHero() {
              className="absolute -left-10 bottom-20 w-[240px] aspect-square bg-[#F3F4F6] p-4 rounded-sm shadow-2xl z-10 hidden xl:block"
            >
               <img 
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop" 
+                src="/images/bath-1.png" 
                 className="w-full h-full object-cover" 
                 alt="Stone Detail" 
               />

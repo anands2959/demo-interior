@@ -43,10 +43,17 @@ export default function Footer() {
                   <p className="text-[11px] text-white/70 leading-[2.2] uppercase tracking-[0.2em] font-medium max-w-[280px]">
                      Bringing architectural isometric form to life through luminous design and structural ethics.
                   </p>
-                  <div className="flex gap-4">
-                     {[...Array(4)].map((_, i) => (
-                        <div key={i} className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-peach hover:text-[#1A1D21] hover:border-peach transition-all cursor-pointer text-[10px] font-bold">
-                           {['In', 'Tw', 'Fb', 'Be'][i]}
+                  <div className="flex gap-2">
+                     {[
+                        // LinkedIn
+                        <svg key="in" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>,
+                        // Twitter
+                        <svg key="tw" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>,
+                        // Facebook
+                        <svg key="fb" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>,
+                     ].map((icon, i) => (
+                        <div key={i} className="w-10 h-10 rounded-sm flex items-center justify-center hover:bg-peach hover:text-[#1A1D21] hover:border-peach transition-all cursor-pointer">
+                           {icon}
                         </div>
                      ))}
                   </div>
@@ -83,10 +90,7 @@ export default function Footer() {
                         <p className="text-[11px] font-bold text-white tracking-widest uppercase mt-1">Hello@ISOLUME.com</p>
                      </div>
                      <div className="h-[1px] w-12 bg-white/20"></div>
-                     <div className="flex gap-4 items-center">
-                        <div className="w-3 h-3 rounded-full bg-peach"></div>
-                        <span className="text-[10px] uppercase font-black tracking-[0.3em] overflow-hidden text-white/90">Studio Status: Online</span>
-                     </div>
+                     
                   </div>
                </div>
 
@@ -100,7 +104,7 @@ export default function Footer() {
                   <span className="hover:text-peach cursor-pointer transition-colors">T&C</span>
                </div>
                <div className="max-w-[400px] text-white/80">
-                  © 2024 ISO & LUME Studio. Handcrafted for your inner peace.
+                  © 2026 ISO & LUME Studio. Handcrafted for your inner peace.
                </div>
             </div>
 

@@ -65,7 +65,7 @@ export default function BathroomSection() {
         <motion.div variants={item} className="flex flex-col gap-12 order-3">
           <div className="aspect-square w-full rounded-sm overflow-hidden bg-gray-100">
              <img 
-               src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" 
+               src="/images/bath-1.png" 
                className="w-full h-full object-cover grayscale brightness-110" 
                alt="Texture Detail" 
              />

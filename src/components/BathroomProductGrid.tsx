@@ -17,8 +17,8 @@ export default function BathroomProductGrid({ activeType }: BathroomProductGridP
   };
 
   const allProducts = [
-    { title: "CARA SLAB BASIN", price: "$1800", type: "furniture", image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop" },
-    { title: "THE ARCH MIRROR", price: "$650", type: "decor", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" },
+    { title: "CARA SLAB BASIN", price: "$1800", type: "furniture", image: "/images/bath-1.png" },
+    { title: "THE ARCH MIRROR", price: "$650", type: "decor", image: "/images/bath-2.png" },
     { title: "MONO TAP SET", price: "$420", type: "furniture", image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" },
     { title: "PIQUE COTTON TOWEL", price: "$90", type: "textiles", image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop" },
   ];

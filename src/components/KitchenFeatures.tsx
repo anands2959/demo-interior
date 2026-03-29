@@ -48,7 +48,7 @@ export default function KitchenFeatures() {
         {/* Feature 2: Precision Controls (Reverse) */}
         <div className="flex flex-col lg:flex-row-reverse items-center gap-16 lg:gap-32">
            <motion.div variants={item} className="w-full lg:w-1/2 aspect-square lg:aspect-video rounded-sm overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1556912170-453d8193007c?q=80&w=2000&auto=format&fit=crop" className="w-full h-full object-cover" alt="Kitchen Tech" />
+              <img src="/images/kitchen-tech.png" className="w-full h-full object-cover" alt="Kitchen Tech" />
            </motion.div>
            <motion.div variants={item} className="w-full lg:w-1/2 flex flex-col gap-8 items-start lg:items-end lg:text-right">
               <div className="flex flex-col gap-4">

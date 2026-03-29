@@ -17,10 +17,10 @@ export default function KitchenProductGrid({ activeType }: KitchenProductGridPro
   };
 
   const allProducts = [
-    { title: "FOUNDRY SLAB", price: "$490", type: "furniture", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop" },
-    { title: "MATTE BLADE SET", price: "$220", type: "furniture", image: "https://images.unsplash.com/photo-1593618471442-321ab9102377?q=80&w=800&auto=format&fit=crop" },
-    { title: "CERAMIC BASIN", price: "$1200", type: "furniture", image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" },
-    { title: "ASH WOOD BLOCK", price: "$150", type: "decor", image: "https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=800&auto=format&fit=crop" },
+    { title: "FOUNDRY SLAB", price: "$490", type: "furniture", image: "/images/kitchen-2.png" },
+    { title: "MATTE BLADE SET", price: "$220", type: "furniture", image: "/images/kitchen-1.png" },
+    { title: "CERAMIC BASIN", price: "$1200", type: "furniture", image: "/images/kitchen-3.png" },
+    { title: "ASH WOOD BLOCK", price: "$150", type: "decor", image: "/images/kitchen-4.png" },
   ];
 
   const products = activeType === "all" 
